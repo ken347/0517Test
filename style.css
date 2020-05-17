@@ -1,0 +1,40 @@
+@font-face{
+    font-family:Ngaan;
+    src:url(./font/I.Ngaan.ttf);
+}
+@font-face{
+    font-family:genkai;
+    src:url(./font/genkai-mincho.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+nav{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 30px;
+}
+#logo span{
+    font-family: Ngaan;
+    font-weight: 900;
+    font-size: 50px;
+}
+#link{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    align-items: center;
+    text-align: center;
+}
+#link a{
+    color: brown;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#link a:hover{
+    color:	#8FBC8F;
+    font-size: 22px;
+}
