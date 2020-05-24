@@ -104,7 +104,7 @@ section hr{
 #news ul{
     display: grid;
     grid-template-columns: 30% 70%;    
-    list-style: none;
+    list-style: nㄍㄟ;
 }
 #news ul span{
     color: gray;
@@ -113,4 +113,17 @@ section hr{
 #news ul li{
     font-size: 24px;
     padding: 10px 0;
+}
+#news a{
+    text-decoration: none;
+    color:#252525;
+}
+#news div{
+    text-align: right;
+}
+#contact p{
+    line-height: 2.5;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
 }
