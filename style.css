@@ -127,3 +127,11 @@ section hr{
     text-align: center;
     width: 80%;
 }
+#contact form div{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#contact form textarea{
+    grid-column: 1/3;
+}
