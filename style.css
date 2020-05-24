@@ -76,3 +76,15 @@ section{
     width: 1200px;
     margin: 0 auto;
 }
+#about>div{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+}
+#about > div .img{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-image: url(./img/about.jpg);
+}
