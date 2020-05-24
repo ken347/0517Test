@@ -48,6 +48,31 @@ nav{
 #banner{
     background-image: url(./img/noodle.jpg);
     background-size: cover;
-    height: 100vh;
     background-position: center;
+    height: 100vh;  
+    display: grid;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+#banner div{
+    width: 800px;
+    margin: 0 auto;
+}
+#banner div h1, #banner div h4 {
+    font-family: Ngaan;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#banner div h1 {
+    font-size: 120px;
+}
+
+#banner div h4 {
+    font-size: 30px;
+    text-align: left;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
 }
